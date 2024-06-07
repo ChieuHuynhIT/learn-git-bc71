@@ -1,0 +1,17 @@
+
+
+repository local ( trong máy của user)
+
+repository remote (trên git)
+
+* tạo repository local: git init  (mỗi dự án sẽ làm 1 lầngit còn)
+
+* liên kết repo và repo remote : git remote https://github.com/ChieuHuynhIT/learn-git-bc71.git
+
+* push: đưa source từ máy lên github
+
+push 3 bước: chọn xác nhận gửi
+
+B1: git add-add
+B2: git commit -m "nội dung của commit"
+B3: git push -u origin master(cho lần đầu/ git push từ lần 2 trở đi)
